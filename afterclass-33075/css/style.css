@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    color: rgb(255, 0, 0);
+}
+section div p{
+    color: green;
+}
+.div-section p{
+    color: blue;
+    background-color: red;
+}
+.div-section2 p{
+    color: green;
+    background-color: blue;
+}
+
+#dark-vader{
+    color: blue;
+    background-color: beige;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+}
+
+/**todos los estilos del header**/
+
+
+
+/**todos los estilos del main-index**/
+
+.banner-index{
+    background-image: url("../assets/img/asientos-para-perros.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+/**todos los estilos del main-contacto**/
+
+
+/**todos los estilos del footer**/
+
+
+
+
