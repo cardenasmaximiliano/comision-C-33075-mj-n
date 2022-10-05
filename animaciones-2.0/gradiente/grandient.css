@@ -1,0 +1,19 @@
+.lineal{
+    width: 200px;
+    height: 200px;
+    background: rgb(43,195,34);
+background: linear-gradient(0deg, rgba(43,195,34,0.5046393557422969) 0%, rgba(210,253,45,1) 100%);
+}
+.radial{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(yellow, blue);
+}
+
+.texto{
+    background-image: linear-gradient(to right bottom, #d16ba5, #d86680, #d1695d, #be7242, #a37c31, #968a37, #869746, #74a35b, #6fba7c, #68d0a1, #61e6c8, #5ffbf1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #004d7a;
+    font-weight: bold;
+}

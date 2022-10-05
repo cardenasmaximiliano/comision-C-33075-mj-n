@@ -1,0 +1,62 @@
+a{
+    text-decoration: none;
+    
+}
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: rgb(255, 0, 0);
+}
+
+a:hover{
+    color: blue;
+    cursor:crosshair
+}
+.container p:first-child{
+    color: green;
+    font-size: 40px;
+}
+
+.container p:nth-child(3){
+    color: lightblue;
+    font-size: 30px;
+}
+.container p:last-child{
+    color: brown;
+    font-size: 10px;
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+.container-2 p:not(.jaime){
+    color: blue;
+}
+
+.container-3 p::before{
+    content: " en inclusive";
+    color: red;
+}
+
+h1::after{
+    content: "Kiosco";
+    color: red;
+}
+
+.historia::first-letter{
+    color: coral;
+   font-size: 40px;
+}
+
+.linea::first-line{
+    color: blue;
+}
+
+.ring::placeholder{
+    color: blue;
+    font-size: 10px;
+}
+

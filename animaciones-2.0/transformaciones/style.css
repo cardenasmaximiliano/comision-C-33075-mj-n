@@ -1,0 +1,58 @@
+
+.shadow{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(247, 14, 14);
+    border-radius: 50%;
+
+}
+.circulo:hover{
+    /*
+    transform: translate(30px, -40px );*/
+    transform: scale(1.5);/**0-1= achique 1-2= agrande 1=por defecto**/
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+.cuadrado:hover{
+    transform: skew(30deg);
+}
+
+.rectangulo{
+    width: 500px;
+    height: 200px;
+    background-color: coral;
+}
+.rectangulo:hover{
+    transform: rotate(40deg);
+}
+
+.efecto{
+    margin: 30px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    perspective: 200px;
+}
+.d3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 127, 80, 0.35);
+    transform-style: preserve-3d;
+    border: 2px solid coral;
+}
+.d3:hover{
+    transform: rotateX(25deg);
+}
+
